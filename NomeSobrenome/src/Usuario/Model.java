@@ -10,7 +10,7 @@ public class Model {
     }
 
     public void Junta() {
-        this.Completo = nome + " " + sobrenome; // Corrigido: Removido "String" para não criar variável local
+        this.Completo = nome + " " + sobrenome;
     }
 
     public String getNomeCompleto() {
