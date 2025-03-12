@@ -19,7 +19,7 @@ public class View extends JFrame {
         JLabel operador = new JLabel("+");
         add(operador);
 
-        textSobrenome = new JTextField(15); // Corrigido: "JTextField" em vez de "JTexteField"
+        textSobrenome = new JTextField(15);
         add(textSobrenome);
 
         visor = new JLabel(" ");
@@ -40,7 +40,7 @@ public class View extends JFrame {
         visor.setText(result);
     }
 
-    public String getNome() { // Criado método para recuperar o nome
+    public String getNome() {
         return textNome.getText();
     }
 
